@@ -37,7 +37,7 @@ class Clock(QWidget):
     def currentTime(self):
         from datetime import datetime
         now = datetime.now()
-        return now.strftime('%H:%M')
+        return now.strftime('%H:%M:%S')
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
